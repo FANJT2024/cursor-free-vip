@@ -13,7 +13,7 @@ def get_user_documents_path():
 def get_default_chrome_path():
     """Get default Chrome path"""
     if sys.platform == "win32":
-        return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+        return r"C:\Users\fanjt\AppData\Local\Google\Chrome\Application\chrome.exe"
     elif sys.platform == "darwin":
         return "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
     else:
